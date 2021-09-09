@@ -1,0 +1,14 @@
+build:
+  python_version: "3.7"
+  gpu: true
+  python_packages:
+    - torch==1.8.1
+    - tqdm==4.46.0
+    - torchtext==0.9.1
+    - omegaconf==2.0.0
+    - matplotlib==3.1.2
+    - scikit-image==0.18.1
+    - librosa==0.8.0
+    - torchaudio==0.8.1
+
+predict: "predict.py:Predictor"
